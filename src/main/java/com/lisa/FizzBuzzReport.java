@@ -10,7 +10,7 @@ public class FizzBuzzReport {
     private static final String LUCKY = "lucky";
     private static final String NUMBER = "integer";
 
-    private static Map<String, Integer> report = new HashMap<>();
+    private static Map<String, Integer> report = new HashMap<String, Integer>();
 
     static String fizzBuzz(final int input) {
         int number = 1;
